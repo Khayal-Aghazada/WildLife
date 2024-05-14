@@ -1,0 +1,385 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding:20px
+}
+
+.logo, i{
+    font-size: 34px;
+}
+
+
+
+.main-box1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images01.nicepage.com/c461c07a441a5d220e8feb1a/6c43943bbf88586fa1937f43/Untitled1min.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;  
+}
+
+h1 {
+    font-size: 4.5em;
+    margin-bottom: 0.5em;
+    font-family: 'Playfair Display', serif;
+}
+
+h1 span, p span {
+    display: block; 
+}
+
+p {
+    font-size: 1.25em;
+    margin-bottom: 2em;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    cursor: pointer;
+    background-image: none;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+.description {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    font-size: 1.2em;
+}
+
+
+
+.main-box2 {
+    background-color: #040307;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;  
+    height: 100vh;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px; 
+}
+
+.box {
+    width: 25%; 
+    position: relative;
+    margin: 20px;
+}
+
+.box img {
+    width: 100%;
+    vertical-align: middle;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.box img:hover {
+    transform: scale(1.05); 
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    text-align: left; 
+    font-size: 2.5em; 
+}
+
+
+
+.main-box3 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/0d93a305b9975af6bddfb586/min.jpg");
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;  
+    overflow: visible;
+}
+
+
+
+.main-box4 {
+    background-color: #040307;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;  
+    height: 50vh;
+}
+
+
+
+.main-box5 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/c05e1953084e55a18db6c559/s.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+
+
+.main-box6 {
+    background-color: #040307;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;  
+    height: 100vh;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px; 
+}
+
+.box {
+    width: 25%; 
+    position: relative;
+    margin: 20px;
+}
+
+.box img {
+    width: 100%;
+    vertical-align: middle;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.box img:hover {
+    transform: scale(1.05); 
+}
+
+
+
+.main-box7 {
+    background-color: #040307;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;  
+}
+
+
+
+.footer-container {
+    background-color: #040307;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 10vh; 
+}
+
+.footer-box {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-bottom {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    height: 10vh;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #999;
+}
+
+.footer-bottom a {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 1200px) {
+    .main-box1 {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    p {
+        font-size: 1.1em;
+        margin-bottom: 1.5em;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 1rem;
+    }
+
+    .description {
+        font-size: 1em;
+        bottom: 40px;
+        right: 40px;
+    }
+
+    .main-box2, .main-box6, .main-box7 {
+        padding: 15px;
+        height: auto; 
+    }
+
+    .box-container {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .box {
+        width: 80%;
+        margin: 15px 0;
+    }
+
+    .caption {
+        font-size: 2em;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 750px) {
+    .main-box1 {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1em;
+        margin-bottom: 1em;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .description {
+        font-size: 0.9em;
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .main-box2, .main-box6, .main-box7 {
+        padding: 10px;
+        height: auto;
+    }
+
+    .box-container {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .box {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .caption {
+        font-size: 1.5em;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-box1 {
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 0.9em;
+        margin-bottom: 0.9em;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+
+    .description {
+        font-size: 0.8em;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .main-box2, .main-box6, .main-box7 {
+        padding: 5px;
+        height: auto; 
+    }
+
+    .box-container {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .box {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .caption {
+        font-size: 1.2em;
+        padding: 4px;
+    }
+}
